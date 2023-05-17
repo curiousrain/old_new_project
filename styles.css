@@ -1,0 +1,68 @@
+@font-face {
+    font-family: '0nest';
+    src: url('/assets/styles/onest/TTF/OnestRegular1602-hint.ttf') format('ttf'), url('/assets/styles/onest/WOFF/OnestRegular1602-hint.woff') format('woff');
+}
+    /* первым делаем на мобильные устройства */
+.decisions {
+    background-color: black;
+    font-family: '0nest';
+}
+.decisions_head {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 164%;
+    text-transform: uppercase;
+    color: #F7DD4A;
+
+}
+.decisions_button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    background-color: black;
+    border: 2px solid #F7DD4A;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color:#F7DD4A;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 144.5%;
+}
+.decisions_contactus {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 164%;
+    text-transform: uppercase;
+    color: #F7DD4A;
+}
+.decisions_success {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 144.5%;
+    text-align: center;
+    color: #F7DD4A;
+}
+.decisions_consultation {
+    background-color: #F7DD4A;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color:black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+/*планшеты*/
+@media screen and (min-width: 768px) {}
+
+
+/*компьютеры*/
+@media (min-width:1024px) {}
