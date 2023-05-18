@@ -1,8 +1,8 @@
 /* первым делаем на мобильные устройства */
 
 /*планшеты*/
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 1225px) {}
 
 
 /*компьютеры*/
-@media (min-width:1024px) {}
+@media (min-width:1440px) {}
