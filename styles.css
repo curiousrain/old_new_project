@@ -14,14 +14,20 @@
     line-height: 164%;
     text-transform: uppercase;
     color: #F7DD4A;
-
+    padding-top: 148px;
+    padding-left: 37.17px;
+    padding-bottom: 35px;
 }
-.decisions_button {
+.decisions_buttons {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding-left: 37.17px;
     gap: 10px;
+    background-color: black;
+    padding-bottom: 45px;
+}
+.decisions_button {
     background-color: black;
     border: 2px solid #F7DD4A;
     border-radius: 20px;
@@ -32,6 +38,10 @@
     font-size: 12px;
     line-height: 144.5%;
 }
+.background_field {
+    width:-webkit-fill-available;
+    padding-bottom: 148px;
+}
 .decisions_contactus {
     font-style: normal;
     font-weight: 400;
@@ -39,14 +49,21 @@
     line-height: 164%;
     text-transform: uppercase;
     color: #F7DD4A;
+    padding-left: 37.17px;
+    padding-bottom: 17px;
 }
 .decisions_success {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 144.5%;
-    text-align: center;
     color: #F7DD4A;
+    padding-left: 37.17px;
+    padding-bottom: 28px;
+}
+.decisions_consultation_button {
+    padding-left: 37.17px;
+    padding-bottom: 157px;
 }
 .decisions_consultation {
     background-color: #F7DD4A;
