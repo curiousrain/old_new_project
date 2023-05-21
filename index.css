@@ -1,17 +1,18 @@
 @font-face {
     font-family: '0nest';
-    src: url('/assets/styles/fonts/onest/TTF/OnestRegular1602-hint.ttf') format('ttf'), url('/assets/styles/fonts/onest/WOFF/OnestRegular1602-hint.woff') format('woff');
+    src: url('/assets/fonts/onest/TTF/OnestRegular1602-hint.ttf') format('ttf'), url('/assets/styles/fonts/onest/WOFF/OnestRegular1602-hint.woff') format('woff');
 }
 
 /* первым делаем на мобильные устройства */
 
 .products {
     display: grid;
-
+    justify-items: center;
     font-family: '0nest';
 }
 
 .products_head {
+    width: 304px;
     font-family: 'Onest';
     font-style: normal;
     font-weight: 700;
@@ -32,10 +33,16 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 144.5%;
-    /* or 17px */
-
-
     color: #000000;
+}
+
+.yellow_lines {
+    position: relative;
+    width: 156px;
+    height: 61.88px;
+    left: 42px;
+    top: -97px;
+    z-index: -1;
 }
 
 /*планшеты*/
