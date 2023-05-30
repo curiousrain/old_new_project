@@ -1,3 +1,8 @@
+@font-face {
+    font-family: '0nest';
+    src: url('/assets/styles/fonts/onest/TTF/OnestRegular1602-hint.ttf') format('ttf'), url('/assets/styles/fonts/onest/WOFF/OnestRegular1602-hint.woff') format('woff');
+}
+
 /* первым делаем на мобильные устройства */
 
 .key-block {
