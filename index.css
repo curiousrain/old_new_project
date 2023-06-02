@@ -1,20 +1,217 @@
 @font-face {
-    font-family: '0nest';
+    font-family: 'Onest';
     src: url('/assets/styles/fonts/onest/TTF/OnestRegular1602-hint.ttf') format('ttf'), url('/assets/styles/fonts/onest/WOFF/OnestRegular1602-hint.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Onest';
+    src: url('/assets/styles/fonts/onest/TTF/OnestBold1602-hint.ttf') format('ttf'), url('/assets/styles/fonts/onest/WOFF/OnestBold1602-hint.woff') format('woff');
+    font-weight: 700;
 }
 
 /* первым делаем на мобильные устройства */
 
 .key-block {
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+    padding-left: 9.2vw;
+    padding-right: 9.2vw;
     height: 140vw;
 
     font-family: Onest;
+    text-align: center;
+}
+
+.key-block__first-paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.key-block__first-paragraph_key {
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+
+    background-image: url(/assets/styles/images/key-yellow.svg);
+
+    font-weight: 700;
+}
+
+.key-block__second-paragraph {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+
+    height: 78.4vw;
+    padding-left: 9.2vw;
+    padding-right: 9.2vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+
+    font-family: Onest;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+
+    background-color: #F7DD4A;
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
 }
 
 /*планшеты*/
-@media screen and (min-width: 1225px) {}
+@media screen and (min-width: 1225px) {
+
+    .key-block {
+        height: 47.2vw;
+        padding-left:  12.2vw;
+        padding-right: 12.2vw;
+
+    }
+
+    .key-block__first-paragraph {
+        font-family: Onest;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 66px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .key-block__first-paragraph_key {
+        padding-left: 20px;
+        padding-right: 30px;
+
+        background-size: cover;
+
+        font-family: Onest;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 66px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .key-block__second-paragraph {
+        font-family: Onest;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .footer {
+        height: 12.2vw;
+        padding-left:  12.2vw;
+        padding-right: 12.2vw;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 16.3vw;
+
+        font-family: Onest;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .footer__contact {
+        text-align: right;
+    }
+}
 
 
 /*компьютеры*/
-@media (min-width:1440px) {}
+@media (min-width:1440px) {
+    .key-block {
+        height: 44.4vw;
+        padding-left:  9.7vw;
+        padding-right: 9.7vw;
+
+    }
+
+    .key-block__first-paragraph {
+        font-family: Onest;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 82px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .key-block__first-paragraph_key {
+        padding-left: 25px;
+        padding-right: 30px;
+
+        background-size: cover;
+
+        font-family: Onest;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 82px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .key-block__second-paragraph {
+        font-family: Onest;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .footer {
+        height: 12.2vw;
+        padding-left:  9.7vw;
+        padding-right: 9.7vw;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 16.3vw;
+
+        font-family: Onest;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .footer__contact {
+        text-align: right;
+    }
+}
