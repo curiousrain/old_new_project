@@ -48,9 +48,11 @@
             </button>
         </div>
         <div class="hero-image">
-            <img srcset="./assets/images/hero-image-375.png 375w, ./assets/images/hero-image-623.png 623w,  ./assets/images/hero-image-585.png 585w"
-                sizes="375px, (min-width: 1225px) 623px, (min-width:1440px) 585px" src="./assets/images/hero-image.png"
-                alt="hero-image" class="hero-image__image">
+            <picture>
+                <source srcset="./assets/images/hero-image-375.png" media="(max-width: 1224px)">
+                <source srcset="./assets/images/hero-image-623.png" media="(min-width: 1225px) and (max-width: 1440px)">
+                <img src="./assets/images/hero-image-585.png" alt="hero-image" class="hero-image__image">
+            </picture>
         </div>
     </div>
     <main>
@@ -59,27 +61,30 @@
         <div> <!--блок решение проблем+картинка+получить консультацию --></div>
         <div class="key-block">
             <div class="key-block__first-paragraph">
-                УСТОЙЧИВОЕ СЕЛЬСКОЕ ХОЗЯЙСТВО – <span class="key-block__first-paragraph_key">КЛЮЧ</span>  К ЗДОРОВОМУ И ПРОЦВЕТАЮЩЕМУ БУДУЩЕМУ
+                УСТОЙЧИВОЕ СЕЛЬСКОЕ ХОЗЯЙСТВО – <span class="key-block__first-paragraph_key">КЛЮЧ</span> К ЗДОРОВОМУ И
+                ПРОЦВЕТАЮЩЕМУ БУДУЩЕМУ
             </div>
             <div class="key-block__second-paragraph">
-                Вот почему мы стремимся разрабатывать и поставлять продукты, способствующие охране окружающей среды и социальной ответственности.
+                Вот почему мы стремимся разрабатывать и поставлять продукты, способствующие охране окружающей среды и
+                социальной ответственности.
             </div>
         </div>
     </main>
     <footer>
         <div class="footer">
             <div class="footer__text">
-                Мы верим, что технологии способны революционизировать способы выращивания и производства продуктов питания, и мы стремимся помочь нашим клиентам использовать эту силу для достижения своих целей.
+                Мы верим, что технологии способны революционизировать способы выращивания и производства продуктов
+                питания, и мы стремимся помочь нашим клиентам использовать эту силу для достижения своих целей.
             </div>
             <div class="footer__contact">
                 <div class="footer__contact-number">
-                +7 (789) 123 56 36
+                    +7 (789) 123 56 36
                 </div>
                 <div class="footer__contact-email">
                     agroTech@gmail.com
                 </div>
             </div>
-            
+
 
         </div>
     </footer>
