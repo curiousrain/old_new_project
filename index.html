@@ -6,14 +6,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agrotech</title>
-
-    <link rel="stylesheet" href="/index.css">
-    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <header></header>
-    <div><!-- здесь будет хиро контейнер(то, что ниже хедера, но не является мейном) --></div>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="header__title">AGROTECH</h1>
+            <ul class="normal-menu">
+                <li class="normal-menu__items">о нас</li>
+                <li class="normal-menu__items">продукты</li>
+                <li class="normal-menu__items">контакты</li>
+            </ul>
+            <div class="burger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#">о нас</a></li>
+                    <li><a class="menu__item" href="#">продукты</a></li>
+                    <li><a class="menu__item" href="#">контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="hero-container">
+        <div class="hero-slogan">
+            <p class="hero-slogan__text">Наша миссия — помочь вам улучшить сельхозпроизводство</p>
+        </div>
+        <div class="hero-info">
+            <p class="hero-info__text">
+                Свяжитесь с нами сегодня, и ваша сельскохозяйственная деятельность поднимется на
+                новый уровень в считанные дни.
+            </p>
+        </div>
+        <div class="hero-button">
+            <button class="hero-button__button">
+                Получить консультацию
+            </button>
+        </div>
+        <div class="hero-image">
+            <img srcset="./assets/images/hero-image-375.png 375w, ./assets/images/hero-image-623.png 623w,  ./assets/images/hero-image-585.png 585w"
+                sizes="375px, (min-width: 1225px) 623px, (min-width:1440px) 585px" src="./assets/images/hero-image.png"
+                alt="hero-image" class="hero-image__image">
+        </div>
+    </div>
     <main>
         <div> <!-- блок о нас, можно разделить на два отдельных дива внутри одного, по желанию --></div>
         <div> <!-- блок картинка+ наши продукты и услуги--></div>
