@@ -310,25 +310,6 @@
 
 /*компьютеры*/
 @media (min-width:1440px) {
-    .header {}
-
-    .header-container {}
-
-    .header__title {}
-
-    .normal-menu {}
-
-    .normal-menu__items {}
-
-    .normal-menu__items_point {}
-
-    .burger-menu {}
-
-    .menu__btn {}
-
-    .menu__box {}
-
-    .menu__item {}
 
     .hero-container {
         display: grid;
@@ -336,38 +317,38 @@
         grid-template-rows: 1fr repeat(2, auto);
         padding: 0 0 176px 80px;
     }
-}
 
-.hero-slogan {
-    width: 681px;
-}
+    .hero-slogan {
+        width: 681px;
+    }
 
-.hero-slogan__text {
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 82px;
-}
+    .hero-slogan__text {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 82px;
+    }
 
-.hero-info {
-    width: 634px;
-}
+    .hero-info {
+        width: 634px;
+    }
 
-.hero-info__text {
-    font-weight: 400;
-}
+    .hero-info__text {
+        font-weight: 400;
+    }
 
-.hero-button {}
+    .hero-button {}
 
-.hero-button__button {
-    background: none;
-    color: #F7DD4A;
-}
+    .hero-button__button {
+        background: none;
+        color: #F7DD4A;
+    }
 
-.hero-button__button-text {}
+    .hero-button__button-text {}
 
-.hero-image {}
+    .hero-image {}
 
-.hero-image__image {
-    width: 100%;
-    height: 100%;
+    .hero-image__image {
+        width: 100%;
+        height: 100%;
+    }
 }
