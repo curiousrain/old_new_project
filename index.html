@@ -58,7 +58,26 @@
     <main>
         <div> <!-- блок о нас, можно разделить на два отдельных дива внутри одного, по желанию --></div>
         <div> <!-- блок картинка+ наши продукты и услуги--></div>
-        <div> <!--блок решение проблем+картинка+получить консультацию --></div>
+        <div class="decisions"> <!--блок решение проблем+картинка+получить консультацию -->
+            <h2 class="decisions_head">мы предлагаем Передовые <b>решения</b> проблем</h2>
+            <div class="decisions_buttons">
+                <button class="decisions_button" onclick="location = '#'" >Решения для точного земледелия</button>
+                <button class="decisions_button" onclick="location = '#'">Управление здоровьем почвы</button>
+                <button class="decisions_button" onclick="location = '#'">Управление водными ресурсами</button>
+                <button class="decisions_button" onclick="location = '#'">Защита урожая</button>
+            </div>
+            <picture>
+                <source srcset="./assets/styles/images/field_p4_small.jpg" media="(max-width: 1224px)">
+                <source srcset="./assets/styles/images/field_p4_middle.jpg"
+                    media="(min-width: 1225px) and (max-width: 1440px) and (orientation: landscape)">
+                <img class="background_field" src="./assets/styles/images/field_p4_large.jpg" alt="field-engine">
+            </picture>
+            <h2 class="decisions_contactus"><b>Свяжитесь с нами сегодня</b></h2>
+            <p class="decisions_success">и успех вашего бизнеса вырастет в разы</p>
+            <div class="decisions_consultation_button">
+                <button class="decisions_consultation" onclick="location = '#'">Получить консультацию</button>
+            </div>
+        </div>
         <div class="key-block">
             <div class="key-block__first-paragraph">
                 УСТОЙЧИВОЕ СЕЛЬСКОЕ ХОЗЯЙСТВО – <span class="key-block__first-paragraph_key">КЛЮЧ</span> К ЗДОРОВОМУ И
