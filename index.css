@@ -82,8 +82,102 @@
     text-transform: uppercase;
 }
 /*планшеты*/
-@media screen and (min-width: 1225px) {}
-
-
+@media screen and (min-width: 1225px) {
+    .decisions_head {
+        font-size: 2.5em;
+        padding-top: 15%;
+        padding-left: 12%;
+        padding-bottom: 2%;
+    }
+    .decisions_buttons {
+        height: 250px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding-left: 12%;
+        padding-bottom: 2%;
+        gap: 0.7em;
+    }
+    .decisions_button {
+        border-radius: 40px;
+        padding: 0.5em 0.8em;
+        margin-right: 1%;
+        font-size: 1.5em;
+    }
+    .background_field {
+        width: 75vw;
+        display: block;
+        margin: auto;
+        padding-bottom: 10%;
+    }
+    .decisions_contactus {
+        font-size: 3em;
+        padding-left: 12%;
+        padding-bottom: 1%;
+        margin-bottom: 1%;
+    }
+    .decisions_success {
+        font-size: 1.4em;
+        padding-left: 12%;
+        padding-bottom: 2%;
+    }
+    .decisions_consultation_button {
+        padding-left: 12%;
+        padding-bottom: 14%;
+    }
+    .decisions_consultation {
+        font-size: 1.5em;
+        padding: 15px 40px;
+    }
+}
 /*компьютеры*/
-@media (min-width:1440px) {}
+@media (min-width:1440px) {
+    .decisions_head {
+        font-size: 3em;
+        padding-top: 140px;
+        padding-left: 10%;
+        padding-bottom: 0px;
+    }
+    .decisions_buttons {
+        height: 220px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding-left: 10%;
+        padding-bottom: 1%;
+        gap: 0.5em;
+    }
+    .decisions_button {
+        border-radius: 40px;
+        padding: 0.5em 0.8em;
+        margin-right: 1%;
+        font-size: 1.45em;
+    }
+    .background_field {
+        width: 77vw;
+        display: block;
+        margin-left: 10%;
+        padding-bottom: 10%;
+    }
+    .decisions_contactus {
+        font-size: 3em;
+        padding-left: 10%;
+        padding-bottom: 1%;
+        margin-bottom: 1%;
+    }
+    .decisions_success {
+        font-size: 1.4em;
+        padding-left: 10%;
+        padding-bottom: 2%;
+    }
+    .decisions_consultation_button {
+        padding-left: 10%;
+        padding-bottom: 14%;
+    }
+    .decisions_consultation {
+        font-size: 1.5em;
+        padding: 15px 40px;
+    }
+}
