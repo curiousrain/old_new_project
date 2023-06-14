@@ -6,12 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agrotech</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <header></header>
-    <div><!-- здесь будет хиро контейнер(то, что ниже хедера, но не является мейном) --></div>
+    <header class="header">
+        <div class="header-container">
+            <h1 class="header__title">AGROTECH</h1>
+            <ul class="normal-menu">
+                <li class="normal-menu__items">о нас</li>
+                <li class="normal-menu__items">продукты</li>
+                <li class="normal-menu__items">контакты</li>
+            </ul>
+            <div class="burger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#">о нас</a></li>
+                    <li><a class="menu__item" href="#">продукты</a></li>
+                    <li><a class="menu__item" href="#">контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="hero-container">
+        <div class="hero-slogan">
+            <p class="hero-slogan__text">Наша миссия — помочь вам улучшить сельхозпроизводство</p>
+        </div>
+        <div class="hero-info">
+            <p class="hero-info__text">
+                Свяжитесь с нами сегодня, и ваша сельскохозяйственная деятельность поднимется на
+                новый уровень в считанные дни.
+            </p>
+        </div>
+        <div class="hero-button">
+            <button class="hero-button__button">
+                Получить консультацию
+            </button>
+        </div>
+        <div class="hero-image">
+            <picture>
+                <source srcset="./assets/images/hero-image-375.png" media="(max-width: 1224px)">
+                <source srcset="./assets/images/hero-image-623.png" media="(min-width: 1225px) and (max-width: 1440px)">
+                <img src="./assets/images/hero-image-585.png" alt="hero-image" class="hero-image__image">
+            </picture>
+        </div>
+    </div>
     <main>
         <div> <!-- блок о нас, можно разделить на два отдельных дива внутри одного, по желанию --></div>
         <div> <!-- блок картинка+ наши продукты и услуги--></div>
@@ -23,20 +66,46 @@
                 <button class="decisions_button" onclick="location = '#'">Управление водными ресурсами</button>
                 <button class="decisions_button" onclick="location = '#'">Защита урожая</button>
             </div>
-            <img class="background_field" src="./assets/styles/images/field_p4_small.jpg"
-            srcset="./assets/styles/images/field_p4_middle.jpg 1225w,
-            ./assets/styles/images/field_p4_large.jpg 1440w"
-            alt="field-engine">
+            <picture>
+                <source srcset="./assets/styles/images/field_p4_small.jpg" media="(max-width: 1224px)">
+                <source srcset="./assets/styles/images/field_p4_middle.jpg"
+                    media="(min-width: 1225px) and (max-width: 1440px) and (orientation: landscape)">
+                <img class="background_field" src="./assets/styles/images/field_p4_large.jpg" alt="field-engine">
+            </picture>
             <h2 class="decisions_contactus"><b>Свяжитесь с нами сегодня</b></h2>
             <p class="decisions_success">и успех вашего бизнеса вырастет в разы</p>
             <div class="decisions_consultation_button">
                 <button class="decisions_consultation" onclick="location = '#'">Получить консультацию</button>
             </div>
         </div>
-        <div><!--предпоследний блок--></div>
+        <div class="key-block">
+            <div class="key-block__first-paragraph">
+                УСТОЙЧИВОЕ СЕЛЬСКОЕ ХОЗЯЙСТВО – <span class="key-block__first-paragraph_key">КЛЮЧ</span> К ЗДОРОВОМУ И
+                ПРОЦВЕТАЮЩЕМУ БУДУЩЕМУ
+            </div>
+            <div class="key-block__second-paragraph">
+                Вот почему мы стремимся разрабатывать и поставлять продукты, способствующие охране окружающей среды и
+                социальной ответственности.
+            </div>
+        </div>
     </main>
     <footer>
-        <div><!--футер--></div>
+        <div class="footer">
+            <div class="footer__text">
+                Мы верим, что технологии способны революционизировать способы выращивания и производства продуктов
+                питания, и мы стремимся помочь нашим клиентам использовать эту силу для достижения своих целей.
+            </div>
+            <div class="footer__contact">
+                <div class="footer__contact-number">
+                    +7 (789) 123 56 36
+                </div>
+                <div class="footer__contact-email">
+                    agroTech@gmail.com
+                </div>
+            </div>
+
+
+        </div>
     </footer>
 </body>
 
