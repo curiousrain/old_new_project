@@ -11,6 +11,9 @@
 }
 
 /* первым делаем на мобильные устройства */
+body {
+    font-family: 'Onest';
+}
 
 .header,
 .hero-container {
@@ -25,7 +28,6 @@
 .hero-slogan__text,
 .hero-info__text,
 .hero-button__button {
-    font-family: 'Onest';
     font-style: normal;
     color: #F7DD4A;
 }
@@ -396,7 +398,6 @@
     }
 
     .normal-menu__items {
-        font-family: 'Onest';
         font-style: normal;
         color: #F7DD4A;
     }
