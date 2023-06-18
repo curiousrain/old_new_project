@@ -95,7 +95,6 @@
 }
 
 .products_img {
-    background: url(/images/humans.svg) center center no-repeat;
     width: 100%;
     height: 100%;
 }
@@ -192,14 +191,105 @@
     }
 
     .products_img {
-        background: url(/images/humans_middle.svg) center center no-repeat;
         width: 100%;
         height: 100%;
     }
 
-
-
 }
 
 /*компьютеры*/
-@media (min-width:1440px) {}
+@media (min-width:1440px) {
+    .about {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .aboutus {
+        display: grid;
+        justify-content: space-around;
+        align-content: space-evenly;
+        height: 694px;
+        background: #000000;
+    }
+
+    .aboutus_header {
+        width: 421px;
+        height: 82px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 164%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F7DD4A;
+    }
+
+    .aboutus_text1 {
+        width: 600px;
+        height: 140px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 144.5%;
+        color: #F7DD4A;
+    }
+
+    .aboutus_text2 {
+        width: 563px;
+        height: 140px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 144.5%;
+        color: #F7DD4A;
+    }
+
+    .products {
+        display: grid;
+        justify-content: space-around;
+        justify-items: start;
+        height: 480px;
+        font-family: '0nest';
+    }
+
+    .products_head {
+        width: 1014.03px;
+        height: 160.81px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 82px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .products_text {
+        width: 657px;
+        height: 140px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 144.5%;
+        color: #000000;
+    }
+
+    .yellow_lines {
+        position: relative;
+        width: 325px;
+        height: 128.91px;
+        left: 220px;
+        top: -157px;
+        z-index: -1;
+    }
+
+    .products_img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
