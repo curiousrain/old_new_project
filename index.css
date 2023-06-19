@@ -65,6 +65,7 @@
 
 .products_head {
     width: 304px;
+    height: 29px;
     font-family: 'Onest';
     font-style: normal;
     font-weight: 700;
@@ -90,13 +91,16 @@
     width: 156px;
     height: 61.88px;
     left: 42px;
-    top: -97px;
+    top: -28px;
     z-index: -1;
 }
 
 .products_img {
+    display: grid;
     width: 100%;
     height: 100%;
+    justify-content: center;
+
 }
 
 /*планшеты*/
@@ -153,13 +157,13 @@
         display: grid;
         justify-content: space-around;
         justify-items: start;
-        height: 480px;
+        height: 616px;
         font-family: '0nest';
     }
 
     .products_head {
         width: 1014.03px;
-        height: 160.81px;
+        height: 1px;
         font-family: 'Onest';
         font-style: normal;
         font-weight: 700;
@@ -185,7 +189,7 @@
         width: 325px;
         height: 128.91px;
         left: 220px;
-        top: -157px;
+        top: -4px;
         z-index: -1;
     }
 
@@ -250,13 +254,13 @@
         display: grid;
         justify-content: space-around;
         justify-items: start;
-        height: 480px;
+        height: 616px;
         font-family: '0nest';
     }
 
     .products_head {
         width: 1014.03px;
-        height: 160.81px;
+        height: 1px;
         font-family: 'Onest';
         font-style: normal;
         font-weight: 700;
@@ -282,7 +286,7 @@
         width: 325px;
         height: 128.91px;
         left: 220px;
-        top: -157px;
+        top: 21px;
         z-index: -1;
     }
 
