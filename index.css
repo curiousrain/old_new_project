@@ -370,6 +370,100 @@ body {
     gap: 35px;
 }
 
+.aboutus {
+    display: grid;
+    justify-content: space-around;
+    align-content: space-evenly;
+    height: 360px;
+    background: #000000;
+}
+
+.aboutus_header {
+    width: 171.24px;
+    height: 32.95px;
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 164%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7DD4A;
+}
+
+.aboutus_text1 {
+    width: 303.98px;
+    height: 66.9px;
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 144.5%;
+    color: #F7DD4A;
+}
+
+.aboutus_text2 {
+    width: 300.94px;
+    height: 66.9px;
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 144.5%;
+    color: #F7DD4A;
+}
+
+.products {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    height: 480px;
+    font-family: '0nest';
+}
+
+.products_head {
+    width: 304px;
+    height: 29px;
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 164%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.products_text {
+    width: 300px;
+    height: 137px;
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 144.5%;
+    color: #000000;
+}
+
+.yellow_lines {
+    position: relative;
+    width: 156px;
+    height: 61.88px;
+    left: 42px;
+    top: -28px;
+    z-index: -1;
+}
+
+.products_img {
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.products-img__img {
+    width: 100%;
+}
+
+
 /*планшеты*/
 
 @media (min-width: 1225px) {
@@ -460,6 +554,97 @@ body {
     .hero-image__image {
         width: 100%;
         height: 452px;
+    }
+      .about {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .aboutus {
+        display: grid;
+        justify-content: space-around;
+        align-content: space-evenly;
+        height: 694px;
+        background: #000000;
+    }
+
+    .aboutus_header {
+        width: 421px;
+        height: 79.26px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 164%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F7DD4A;
+    }
+
+    .aboutus_text1 {
+        width: 600px;
+        height: 135.32px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 144.5%;
+        color: #F7DD4A;
+    }
+      .aboutus_text2 {
+        width: 563px;
+        height: 135.32px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 144.5%;
+        color: #F7DD4A;
+    }
+
+    .products {
+        display: grid;
+        justify-content: space-around;
+        justify-items: start;
+        height: 616px;
+        font-family: '0nest';
+    }
+
+    .products_head {
+        width: 1014.03px;
+        height: 1px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 164%;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .products_text {
+        width: 514px;
+        height: 137px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 144.5%;
+        color: #000000;
+    }
+
+    .yellow_lines {
+        position: relative;
+        width: 325px;
+        height: 128.91px;
+        left: 220px;
+        top: -4px;
+        z-index: -1;
+    }
+
+    .products_img {
+        width: 100%;
+        height: 694px;
     }
 
     .decisions_head {
@@ -579,8 +764,8 @@ body {
     .footer__contact {
         text-align: right;
     }
-}
 
+}
 
 /*компьютеры*/
 @media (min-width:1440px) {
@@ -616,6 +801,98 @@ body {
     }
 
     .hero-image__image {
+        width: 100%;
+        height: 100%;
+    }
+  .about {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .aboutus {
+        display: grid;
+        justify-content: space-around;
+        align-content: space-evenly;
+        height: 707px;
+        background: #000000;
+    }
+
+    .aboutus_header {
+        width: 421px;
+        height: 82px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 164%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #F7DD4A;
+    }
+
+    .aboutus_text1 {
+        width: 600px;
+        height: 140px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 144.5%;
+        color: #F7DD4A;
+    }
+
+    .aboutus_text2 {
+        width: 563px;
+        height: 140px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 144.5%;
+        color: #F7DD4A;
+    }
+
+    .products {
+        display: grid;
+        justify-content: space-around;
+        justify-items: start;
+        height: 616px;
+        font-family: '0nest';
+    }
+
+    .products_head {
+        width: 1014.03px;
+        height: 1px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 82px;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    .products_text {
+        width: 657px;
+        height: 140px;
+        font-family: 'Onest';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 144.5%;
+        color: #000000;
+    }
+
+    .yellow_lines {
+        position: relative;
+        width: 325px;
+        height: 128.91px;
+        left: 220px;
+        top: 21px;
+        z-index: -1;
+    }
+
+    .products_img {
         width: 100%;
         height: 100%;
     }
