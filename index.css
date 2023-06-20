@@ -212,6 +212,99 @@ body {
     height: 214px;
 }
 
+.aboutus {
+    display: grid;
+    justify-content: space-around;
+    align-content: space-evenly;
+    height: 360px;
+    background: #000000;
+}
+
+.aboutus_header {
+    width: 171.24px;
+    height: 32.95px;
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 164%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7DD4A;
+}
+
+.aboutus_text1 {
+    width: 303.98px;
+    height: 66.9px;
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 144.5%;
+    color: #F7DD4A;
+}
+
+.aboutus_text2 {
+    width: 300.94px;
+    height: 66.9px;
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 144.5%;
+    color: #F7DD4A;
+}
+
+.products {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    height: 480px;
+    font-family: '0nest';
+}
+
+.products_head {
+    width: 304px;
+    height: 29px;
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 164%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.products_text {
+    width: 300px;
+    height: 137px;
+    font-family: 'Onest';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 144.5%;
+    color: #000000;
+}
+
+.yellow_lines {
+    position: relative;
+    width: 156px;
+    height: 61.88px;
+    left: 42px;
+    top: -28px;
+    z-index: -1;
+}
+
+.products_img {
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.products-img__img {
+    width: 100%;
+}
+
 .decisions {
     background-color: black;
     font-family: '0nest';
@@ -370,98 +463,7 @@ body {
     gap: 35px;
 }
 
-.aboutus {
-    display: grid;
-    justify-content: space-around;
-    align-content: space-evenly;
-    height: 360px;
-    background: #000000;
-}
 
-.aboutus_header {
-    width: 171.24px;
-    height: 32.95px;
-    font-family: 'Onest';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 164%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #F7DD4A;
-}
-
-.aboutus_text1 {
-    width: 303.98px;
-    height: 66.9px;
-    font-family: 'Onest';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 144.5%;
-    color: #F7DD4A;
-}
-
-.aboutus_text2 {
-    width: 300.94px;
-    height: 66.9px;
-    font-family: 'Onest';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 144.5%;
-    color: #F7DD4A;
-}
-
-.products {
-    display: grid;
-    justify-items: center;
-    align-content: center;
-    height: 480px;
-    font-family: '0nest';
-}
-
-.products_head {
-    width: 304px;
-    height: 29px;
-    font-family: 'Onest';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 164%;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-.products_text {
-    width: 300px;
-    height: 137px;
-    font-family: 'Onest';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 144.5%;
-    color: #000000;
-}
-
-.yellow_lines {
-    position: relative;
-    width: 156px;
-    height: 61.88px;
-    left: 42px;
-    top: -28px;
-    z-index: -1;
-}
-
-.products_img {
-    display: grid;
-    width: 100%;
-    height: 100%;
-}
-
-.products-img__img {
-    width: 100%;
-}
 
 
 /*планшеты*/
@@ -555,7 +557,8 @@ body {
         width: 100%;
         height: 452px;
     }
-      .about {
+
+    .about {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
@@ -591,7 +594,8 @@ body {
         line-height: 144.5%;
         color: #F7DD4A;
     }
-      .aboutus_text2 {
+
+    .aboutus_text2 {
         width: 563px;
         height: 135.32px;
         font-family: 'Onest';
@@ -645,6 +649,10 @@ body {
     .products_img {
         width: 100%;
         height: 694px;
+    }
+
+    .products-img__img {
+        width: auto;
     }
 
     .decisions_head {
@@ -804,7 +812,8 @@ body {
         width: 100%;
         height: 100%;
     }
-  .about {
+
+    .about {
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
@@ -894,6 +903,11 @@ body {
 
     .products_img {
         width: 100%;
+        height: 100%;
+    }
+
+    .products-img__img {
+        width: auto;
         height: 100%;
     }
 
