@@ -99,9 +99,12 @@
     display: grid;
     width: 100%;
     height: 100%;
-    justify-content: center;
-
 }
+
+.products-img__img {
+    width: 100%;
+}
+
 
 /*планшеты*/
 @media (min-width: 1225px) {
