@@ -227,8 +227,7 @@ body {
   height: 534px;
   width: 375px;
   top: 30px;
-  background: no-repeat
-    url("../old_new_project-klara/assets/images/whoiswho_mobile.jpg");
+  background: no-repeat url("./assets/images/whoiswho_mobile.jpg");
 }
 
 .card-demo1 h2 {
@@ -613,8 +612,7 @@ body {
     height: 900px;
     width: 100%;
     top: 85px;
-    background: no-repeat
-      url("../old_new_project-klara/assets/images/whoiswho_planshet.jpg");
+    background: no-repeat url("./assets/images/whoiswho_planshet.jpg");
   }
 
   .card-demo1 h2 {
@@ -910,8 +908,7 @@ body {
     position: relative;
     height: 900px;
     width: 1440px;
-    background: no-repeat
-      url("../old_new_project-klara/assets/images/whoiswho.jpg");
+    background: no-repeat url("./assets/images/whoiswho.jpg");
   }
 
   .card-demo1 h2 {
