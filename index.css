@@ -69,9 +69,9 @@ body {
   z-index: 1;
 }
 
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
   display: block;
   position: absolute;
   width: 100%;
@@ -79,12 +79,12 @@ body {
   background-color: #f7dd4a;
 }
 
-.menu__btn > span::before {
+.menu__btn>span::before {
   content: "";
   top: -8px;
 }
 
-.menu__btn > span::after {
+.menu__btn>span::after {
   content: "";
   top: 8px;
 }
@@ -120,28 +120,28 @@ body {
   background-color: #cfd8dc;
 }
 
-#menu__toggle:checked ~ .menu__btn > span {
+#menu__toggle:checked~.menu__btn>span {
   transform: rotate(45deg);
 }
 
-#menu__toggle:checked ~ .menu__btn > span::before {
+#menu__toggle:checked~.menu__btn>span::before {
   top: 0;
   transform: rotate(0);
 }
 
-#menu__toggle:checked ~ .menu__btn > span::after {
+#menu__toggle:checked~.menu__btn>span::after {
   top: 0;
   transform: rotate(90deg);
 }
 
-#menu__toggle:checked ~ .menu__box {
+#menu__toggle:checked~.menu__box {
   visibility: visible;
   right: 0;
 }
 
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
   transition-duration: 0.25s;
 }
 
@@ -230,14 +230,6 @@ body {
 .card-demo1 h2 {
   padding: 20px 10px 0 120px;
   font-size: 20px;
-}
-
-.yellowcircle {
-  grid-area: 2/1;
-  margin: 0 50px 0 70px;
-  border-radius: 200px;
-  width: 65%;
-  height: 60%;
 }
 
 .card-demo1 p {
@@ -607,18 +599,18 @@ body {
     font-size: 50px;
   }
 
-  .yellowcircle {
-    border-radius: 200px;
-    margin: 2px 300px 0 400px;
-    height: 70%;
-    width: 40%;
-  }
-
   .card-demo1 p {
-    margin: 150px 370px 0 430px;
+    display: flex;
+    margin: 0 362px 0 363px;
     font-size: 24px;
-    line-height: 144.5%;
     text-align: center;
+    background-color: #f7dd4a;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    line-height: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
   .about {
@@ -888,17 +880,19 @@ body {
     font-size: 50px;
   }
 
-  .yellowcircle {
-    margin: 0 280px 0 450px;
-    border-radius: 500px;
-    width: 35%;
-    height: 75%;
-  }
 
   .card-demo1 p {
-    margin: 160px 500px 0 480px;
+    display: flex;
+    margin: 0 500px 0 480px;
     font-size: 24px;
     text-align: center;
+    background-color: #f7dd4a;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    line-height: 100%;
+    align-items: center;
+    justify-content: center;
   }
 
   .about {
