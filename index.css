@@ -69,9 +69,9 @@ body {
   z-index: 1;
 }
 
-.menu__btn>span,
-.menu__btn>span::before,
-.menu__btn>span::after {
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
   display: block;
   position: absolute;
   width: 100%;
@@ -79,12 +79,12 @@ body {
   background-color: #f7dd4a;
 }
 
-.menu__btn>span::before {
+.menu__btn > span::before {
   content: "";
   top: -8px;
 }
 
-.menu__btn>span::after {
+.menu__btn > span::after {
   content: "";
   top: 8px;
 }
@@ -120,28 +120,28 @@ body {
   background-color: #cfd8dc;
 }
 
-#menu__toggle:checked~.menu__btn>span {
+#menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
 }
 
-#menu__toggle:checked~.menu__btn>span::before {
+#menu__toggle:checked ~ .menu__btn > span::before {
   top: 0;
   transform: rotate(0);
 }
 
-#menu__toggle:checked~.menu__btn>span::after {
+#menu__toggle:checked ~ .menu__btn > span::after {
   top: 0;
   transform: rotate(90deg);
 }
 
-#menu__toggle:checked~.menu__box {
+#menu__toggle:checked ~ .menu__box {
   visibility: visible;
   right: 0;
 }
 
-.menu__btn>span,
-.menu__btn>span::before,
-.menu__btn>span::after {
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
   transition-duration: 0.25s;
 }
 
@@ -233,10 +233,16 @@ body {
 }
 
 .card-demo1 p {
-  grid-area: 2/1;
-  margin: 85px 0 0 0;
+  display: flex;
+  margin: 0 60px 0 55px;
   font-size: 12px;
+  background-color: #f7dd4a;
+  height: 250px;
+  height: 250px;
+  border-radius: 50%;
   line-height: 144.5%;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -879,7 +885,6 @@ body {
     margin: 40px 400px 0 430px;
     font-size: 50px;
   }
-
 
   .card-demo1 p {
     display: flex;
