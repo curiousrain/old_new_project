@@ -69,9 +69,9 @@ body {
   z-index: 1;
 }
 
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
   display: block;
   position: absolute;
   width: 100%;
@@ -79,12 +79,12 @@ body {
   background-color: #f7dd4a;
 }
 
-.menu__btn > span::before {
+.menu__btn>span::before {
   content: "";
   top: -8px;
 }
 
-.menu__btn > span::after {
+.menu__btn>span::after {
   content: "";
   top: 8px;
 }
@@ -120,28 +120,28 @@ body {
   background-color: #cfd8dc;
 }
 
-#menu__toggle:checked ~ .menu__btn > span {
+#menu__toggle:checked~.menu__btn>span {
   transform: rotate(45deg);
 }
 
-#menu__toggle:checked ~ .menu__btn > span::before {
+#menu__toggle:checked~.menu__btn>span::before {
   top: 0;
   transform: rotate(0);
 }
 
-#menu__toggle:checked ~ .menu__btn > span::after {
+#menu__toggle:checked~.menu__btn>span::after {
   top: 0;
   transform: rotate(90deg);
 }
 
-#menu__toggle:checked ~ .menu__box {
+#menu__toggle:checked~.menu__box {
   visibility: visible;
   right: 0;
 }
 
-.menu__btn > span,
-.menu__btn > span::before,
-.menu__btn > span::after {
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
   transition-duration: 0.25s;
 }
 
@@ -222,23 +222,22 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 75%;
   margin-top: 30px;
-  height: 530px;
-  width: 375px;
+  justify-items: center;
   background: no-repeat url("./assets/images/whoiswho_mobile.jpg");
 }
 
 .card-demo1 h2 {
-  padding: 20px 10px 0 120px;
+  margin: 61px 102px 60px 118px;
   font-size: 20px;
 }
 
 .card-demo1 p {
   display: flex;
-  margin: 0 60px 0 55px;
+  margin: 0 62px 156px 67px;
   font-size: 12px;
   background-color: #f7dd4a;
-  height: 250px;
-  height: 250px;
+  width: 245px;
+  height: 245px;
   border-radius: 50%;
   line-height: 144.5%;
   align-items: center;
