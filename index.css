@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Onest";
   src: url("/assets/fonts/onest/TTF/OnestRegular1602-hint.ttf") format("ttf"),
-    url("/assets//fonts/onest/WOFF/OnestRegular1602-hint.woff") format("woff");
+    url("/assets/fonts/onest/WOFF/OnestRegular1602-hint.woff") format("woff");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Onest";
   src: url("/assets/fonts/onest/TTF/OnestBold1602-hint.ttf") format("ttf"),
-    url("/assets//fonts/onest/WOFF/OnestBold1602-hint.woff") format("woff");
+    url("/assets/fonts/onest/WOFF/OnestBold1602-hint.woff") format("woff");
   font-weight: 700;
 }
 
@@ -239,7 +239,6 @@ body {
   width: 245px;
   height: 245px;
   border-radius: 50%;
-  /* line-height: 144.5%; */
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -1088,9 +1087,7 @@ body {
   .key-block__first-paragraph_key {
     padding-left: 25px;
     padding-right: 30px;
-
     background-size: cover;
-
     font-family: Onest;
     font-size: 50px;
     font-weight: 700;
