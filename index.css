@@ -239,7 +239,7 @@ body {
   width: 245px;
   height: 245px;
   border-radius: 50%;
-  line-height: 144.5%;
+  /* line-height: 144.5%; */
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -524,8 +524,28 @@ body {
   }
 
   .normal-menu__items {
+    display: inline-block;
+    position: relative;
     font-style: normal;
     color: #f7dd4a;
+  }
+
+  .normal-menu__items::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f7dd4a;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .normal-menu__items:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
 
   .burger-menu {
@@ -613,7 +633,6 @@ body {
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    line-height: 100%;
     align-items: center;
     justify-content: center;
   }
@@ -894,7 +913,6 @@ body {
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    line-height: 100%;
     align-items: center;
     justify-content: center;
   }
